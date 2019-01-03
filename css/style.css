@@ -1,6 +1,37 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-family: helvetica;
+  font-size: 14px;
+  background-color: #CAE4DB;
+  color: #7A9D96;
+}
+/* newly added text properties */
+p {
+  font-size: 1em;
+  line-height: 1.3em;
+}
+
+h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #00303F;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #DCAE1D;
+}
+/* remove underline from links */
+a:link {
+  text-decoration: none;
+  color: #00303F;
+}
+/* mouse over link */
+a:hover, a:active {
+  font-weight: bold;
+}
+/* visited link stays yellow */
+a:visited {
+  color: #DCAE1D;
 }
 
 nav {
